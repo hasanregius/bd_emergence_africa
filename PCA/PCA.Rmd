@@ -1,0 +1,39 @@
+---
+title: "PCA"
+author: "Hasan Sulaeman"
+date: "5/16/2017"
+output: word_document
+---
+We're going to try and create an unrotated principal component analysis by first entering the raw data and separating the factors out.
+```{r}
+samples=read.csv("/Users/hasansulaeman/Dropbox/Africa Bd Project/Africa manuscript/data/Sonia_Hirschfeldetal_Data_for_GLM_01102018.csv", header=TRUE)
+
+cortest=samples[c(27:64)] # OG
+cortest=samples[c(27:30)]         # For temperature
+cortest=samples[c(38,40,41,44)]   # For precipitation
+cortest=samples[c(46:54)]         # For Anthropogenic Pressure
+cortest=samples[c(56:61)]         # For distance to water body
+cortest=samples[c(62:64)]         # For soil-water balance
+```
+
+We then extract the principal components from the correlation matrix.
+```{r, echo=TRUE}
+fit = princomp(cortest, cor=TRUE)             # We're using the princomp command
+summary(fit)                                  # Print the variance accounted for 
+loadings(fit)                                 # Show the principal component loadings 
+fit$scores                                    # Show the principal components
+biplot(fit)                                   # Plot out the factors
+write.csv(fit$scores, file="Score.4.SoilWater.Balance.csv")
+```
+
+To determine and double check the number of factors we should extract, we'll use the package "nFactors" to perform tests
+```{r}
+library(nFactors)
+ev = eigen(cor(cortest)) # get eigenvalues
+ap = parallel(subject=nrow(cortest),var=ncol(cortest),
+               rep=100,cent=.05)
+nS = nScree(x=ev$values, aparallel=ap$eigen$qevpea)
+plotnScree(nS, main="Scree Test for Soil-Water Balance")
+```
+
+

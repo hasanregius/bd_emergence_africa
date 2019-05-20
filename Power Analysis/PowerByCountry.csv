@@ -1,0 +1,43 @@
+CountryName,neg,pos,tot,prob
+"Angola, Democratic Republic of the Congo,Tanzania, Zambia",20,0,20,0.097229966
+Benin,138,0,138,1.04E-07
+Botswana,0,2,2,0.7921
+Burkina Faso,5,0,5,0.558405945
+Burundi,57,123,180,7.77E-10
+Cameroon,1475,309,1784,5.15E-91
+"Cameroon, Democratic Republic of the Congo, Equatorial Guinea, Gabon",37,0,37,0.013410045
+"Cameroon, Equatorial Guinea, Gabon, Ghana, Guinea-Bissau,Liberia, Nigeria, Sierra Leone",101,0,101,7.73E-06
+"Cameroon, Equatorial Guinea, Gabon, Nigeria",27,0,27,0.043006112
+Central African Republic,3,0,3,0.704969
+Congo,34,4,38,0.01193494
+"Congo, Democratic Republic of the Congo",5,0,5,0.558405945
+Cote D'Ivoire,63,0,63,0.000647993
+Democratic Republic of the Congo,918,184,1102,1.69E-56
+"Democratic Republic of the Congo, Eritrea, Kenya, Lesotho, Malawi, Mozambique,Namibia, South Africa, Sudan, Tanzania, Uganda, Zimbabwe",155,0,155,1.43E-08
+"Democratic Republic of the Congo, Uganda",21,0,21,0.08653467
+"Democratic Republic of the Congo, Zambia",4,0,4,0.62742241
+Equatorial Guinea,288,56,344,3.89E-18
+Ethiopia,94,52,146,4.08E-08
+"Ethiopia,Sudan",15,0,15,0.174120578
+Gabon,691,142,833,6.95E-43
+Ghana,297,1,298,8.28E-16
+Guinea,300,0,300,6.56E-16
+Kenya,1265,285,1550,3.59E-79
+Lesotho,25,12,37,0.013410045
+Liberia,16,0,16,0.154967314
+Malawi,62,15,77,0.000126774
+"Malawi, Mozambique, Nigeria, Tanzania, Zambia",58,0,58,0.001160434
+Morocco,386,8,394,1.15E-20
+Mozambique,129,1,130,2.63E-07
+Nigeria,801,493,1294,3.24E-66
+Rwanda,198,38,236,1.14E-12
+"Rwanda, Uganda",12,0,12,0.246990404
+Sao Tome and Principe,397,70,467,2.32E-24
+Sierra Leone,19,0,19,0.109247153
+South Africa,856,337,1193,4.19E-61
+"South Africa, Lesotho, Swaziland",678,19,697,5.31E-36
+Swaziland,2,2,4,0.62742241
+Tanzania,991,56,1047,1.03E-53
+The Gambia,2,0,2,0.7921
+Uganda,1887,84,1971,1.77E-100
+Zambia,68,0,68,0.000361843
