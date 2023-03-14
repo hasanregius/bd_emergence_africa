@@ -1,2 +1,2 @@
-# Recent Emergence of Bd in African Amphibians
-Scripts and figures included in this repository was used for the Frontiers in Conservation Science publication by Ghose et al. (2023; in press). Analyses included in this repository includes MCMC Bayesian analysis for Bd arrival in Africa, maximum entropy habitat suitability model for risk assessment, and an effort to model disease occurrence in Africa (unpublished).
+# AfricanBdEmergence
+Continent-wide recent emergence of a global pathogen in African amphibians
